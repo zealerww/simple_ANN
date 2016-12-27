@@ -6,6 +6,10 @@
 #include <iostream>
 using std::vector;
 
+/**	class of network layer
+ *	Members:
+ *		neurons: the AnnNeuron objects in the layer	
+ */
 class AnnLayer
 {
 public:

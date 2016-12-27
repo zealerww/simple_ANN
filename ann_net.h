@@ -12,6 +12,17 @@ using std::string;
 
 #define BIAS 1.0
 
+/**	class of network
+ *	contains of input layer, hidden layers and output layer.
+ *	use data to train the network, the weight of each neuron
+ *	will be updated.use data to predict, the predicted lable
+ *	will be output.
+ *	Members:
+ *		hiddenLayer/ouputLayer: layer contains many neurons
+ *	Funcs:
+ *		
+ */ 
+
 class AnnNet
 {
 public:

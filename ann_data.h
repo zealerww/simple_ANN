@@ -12,6 +12,13 @@ using std::endl;
 #include <sys/types.h>
 #include <dirent.h>
 
+
+/**	class of the data for ann
+ *	get the file from dir and get the vector from file
+ *	Members:
+ *		sampleInput: data vector of file
+ *		targetLabel: real label of each data 	
+ */
 class AnnData
 {
 public:

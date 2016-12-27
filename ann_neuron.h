@@ -2,6 +2,12 @@
 #define ANN_NEURON_H
 #include <iostream>
 
+
+/*	class of neuron unit
+ *	Members:
+ *		inputWeight: weight of input from last layer
+ *		ouput: sum of weight multis input for each unit
+ */
 class AnnNeuron
 {
 public:
